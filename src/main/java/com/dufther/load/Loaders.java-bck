@@ -1,0 +1,43 @@
+package com.dufther.load;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
+import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.dufther.domain.User;
+import com.dufther.repository.UserJPARepository;
+import com.dufther.searchrepository.UserRepository;
+
+import javax.annotation.PostConstruct;
+import java.util.List;
+
+@Component
+public class Loaders {
+
+    @Autowired
+    ElasticsearchOperations operations;
+
+    @Autowired
+    UserRepository userRepository;
+
+    @Autowired
+    UserJPARepository userJpaRepository;
+
+    @PostConstruct
+    @Transactional
+    public void loadAll(){
+System.out.println("\n LOAD ALL*****************\n ");
+        operations.putMapping(User.class);
+        System.out.println("Loading Data");
+        List<User> data = userJpaRepository.findAll();
+//        userJpaRepository.saveAll(data); //saves to H2 DB
+
+//        List<User> usersList = userJpaRepository.findAll(); //Get from H2 DB
+        userRepository.saveAll(data); //loads into Elastic
+        System.out.printf("Loading Completed");
+
+    }
+
+   
+}
