@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.dufther</groupId>
-	<artifactId>DuftherBackendAPIs</artifactId>
+	<artifactId>BlueJobs</artifactId>
 	<version>1.0</version>
 	<name>BlueJobs</name>
 	<description>Blue Jobs API</description>
