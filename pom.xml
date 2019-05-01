@@ -11,8 +11,8 @@
 	<groupId>com.dufther</groupId>
 	<artifactId>DuftherBackendAPIs</artifactId>
 	<version>1.0</version>
-	<name>DuftherBackendAPIs</name>
-	<description>Dufther API</description>
+	<name>BlueJobs</name>
+	<description>Blue Jobs API</description>
 
 	<properties>
 		<java.version>1.8</java.version>
