@@ -1,6 +1,6 @@
-package com.dufther.repository;
+package com.bluejob.repository;
 
-import com.dufther.domain.Authority;
+import com.bluejob.domain.Authority;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

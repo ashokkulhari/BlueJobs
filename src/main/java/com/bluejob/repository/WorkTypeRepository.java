@@ -1,8 +1,8 @@
-package com.dufther.repository;
+package com.bluejob.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.dufther.domain.WorkType;
+import com.bluejob.domain.WorkType;
 
 
 public interface WorkTypeRepository extends JpaRepository<WorkType,Long>{

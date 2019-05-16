@@ -1,4 +1,4 @@
-package com.dufther.config;
+package com.bluejob.config;
 
 /**
  * Application constants.

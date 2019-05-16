@@ -1,10 +1,10 @@
-package com.dufther.model;
+package com.bluejob.model;
 
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import com.dufther.domain.JobIndsIndustryRole;
-import com.dufther.domain.PrefIndsIndustryRole;
+import com.bluejob.domain.JobIndsIndustryRole;
+import com.bluejob.domain.PrefIndsIndustryRole;
 
 import lombok.Getter;
 import lombok.Setter;

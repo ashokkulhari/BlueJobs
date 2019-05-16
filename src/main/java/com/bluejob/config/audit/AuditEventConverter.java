@@ -1,6 +1,6 @@
-package com.dufther.config.audit;
+package com.bluejob.config.audit;
 
-import com.dufther.domain.PersistentAuditEvent;
+import com.bluejob.domain.PersistentAuditEvent;
 
 import org.springframework.boot.actuate.audit.AuditEvent;
 import org.springframework.security.web.authentication.WebAuthenticationDetails;

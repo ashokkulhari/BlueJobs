@@ -1,8 +1,8 @@
-package com.dufther.web.rest.vm;
+package com.bluejob.web.rest.vm;
 
 import javax.validation.constraints.Size;
 
-import com.dufther.model.UserDTO;
+import com.bluejob.model.UserDTO;
 
 /**
  * View Model extending the UserDTO, which is meant to be used in the user management UI.

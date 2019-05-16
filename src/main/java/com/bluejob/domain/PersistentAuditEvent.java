@@ -1,4 +1,4 @@
-package com.dufther.domain;
+package com.bluejob.domain;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

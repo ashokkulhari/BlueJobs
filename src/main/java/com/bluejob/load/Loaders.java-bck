@@ -1,13 +1,13 @@
-package com.dufther.load;
+package com.bluejob.load;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.dufther.domain.User;
-import com.dufther.repository.UserJPARepository;
-import com.dufther.searchrepository.UserRepository;
+import com.bluejob.domain.User;
+import com.bluejob.repository.UserJPARepository;
+import com.bluejob.searchrepository.UserRepository;
 
 import javax.annotation.PostConstruct;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.dufther.model;
+package com.bluejob.model;
 
 /**
  * A DTO representing a password change required data - current and new password.

@@ -1,8 +1,8 @@
-package com.dufther.service;
+package com.bluejob.service;
 
-import com.dufther.config.TwilioConfiguration;
-import com.dufther.util.SmsRequest;
-import com.dufther.util.SmsSender;
+import com.bluejob.config.TwilioConfiguration;
+import com.bluejob.util.SmsRequest;
+import com.bluejob.util.SmsSender;
 import com.twilio.rest.api.v2010.account.Message;
 import com.twilio.rest.api.v2010.account.MessageCreator;
 import com.twilio.type.PhoneNumber;

@@ -1,4 +1,4 @@
-package com.dufther.domain;
+package com.bluejob.domain;
 
 import java.io.Serializable;
 import java.util.Set;
@@ -22,7 +22,7 @@ import org.hibernate.annotations.BatchSize;
 import org.hibernate.annotations.Type;
 import org.springframework.data.elasticsearch.annotations.Document;
 
-import com.dufther.config.Auditable;
+import com.bluejob.config.Auditable;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

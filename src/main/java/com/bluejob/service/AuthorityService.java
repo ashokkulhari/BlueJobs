@@ -1,4 +1,4 @@
-package com.dufther.service;
+package com.bluejob.service;
 
 import java.util.List;
 import java.util.Set;
@@ -6,8 +6,8 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.dufther.domain.Authority;
-import com.dufther.repository.AuthorityRepository;
+import com.bluejob.domain.Authority;
+import com.bluejob.repository.AuthorityRepository;
 
 @Service
 public class AuthorityService {

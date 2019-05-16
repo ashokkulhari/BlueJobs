@@ -1,4 +1,4 @@
-package com.dufther.security.jwt;
+package com.bluejob.security.jwt;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

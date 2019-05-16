@@ -1,4 +1,4 @@
-package com.dufther.security.services;
+package com.bluejob.security.services;
 
 import org.springframework.security.core.AuthenticationException;
 

@@ -1,4 +1,4 @@
-package com.dufther.web.rest.vm;
+package com.bluejob.web.rest.vm;
 
 /**
  * View Model object for storing the user's key and password.

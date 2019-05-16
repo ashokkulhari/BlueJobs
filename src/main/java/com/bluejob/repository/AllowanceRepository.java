@@ -1,8 +1,8 @@
-package com.dufther.repository;
+package com.bluejob.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.dufther.domain.Allowance;
+import com.bluejob.domain.Allowance;
 
 
 public interface AllowanceRepository extends JpaRepository<Allowance,Long>{

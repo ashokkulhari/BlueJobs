@@ -1,4 +1,4 @@
-package com.dufther.service;
+package com.bluejob.service;
 
 import java.time.Instant;
 import java.util.ArrayList;
@@ -17,19 +17,19 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.dufther.config.Constants;
-import com.dufther.domain.Authority;
-import com.dufther.domain.User;
-import com.dufther.domain.UserType;
-import com.dufther.model.UserDTO;
-import com.dufther.repository.ProfileStatusRepository;
-import com.dufther.repository.UserJPARepository;
-import com.dufther.searchrepository.UserSearchRepository;
-import com.dufther.security.SecurityUtils;
-import com.dufther.util.RandomUtil;
-import com.dufther.web.rest.errors.EmailAlreadyUsedException;
-import com.dufther.web.rest.errors.InvalidPasswordException;
-import com.dufther.web.rest.errors.LoginAlreadyUsedException;
+import com.bluejob.config.Constants;
+import com.bluejob.domain.Authority;
+import com.bluejob.domain.User;
+import com.bluejob.domain.UserType;
+import com.bluejob.model.UserDTO;
+import com.bluejob.repository.ProfileStatusRepository;
+import com.bluejob.repository.UserJPARepository;
+import com.bluejob.searchrepository.UserSearchRepository;
+import com.bluejob.security.SecurityUtils;
+import com.bluejob.util.RandomUtil;
+import com.bluejob.web.rest.errors.EmailAlreadyUsedException;
+import com.bluejob.web.rest.errors.InvalidPasswordException;
+import com.bluejob.web.rest.errors.LoginAlreadyUsedException;
 
 
 @Service

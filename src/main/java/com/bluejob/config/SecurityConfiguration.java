@@ -1,4 +1,4 @@
-package com.dufther.config;
+package com.bluejob.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,10 +26,10 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import org.springframework.web.filter.CorsFilter;
 import org.zalando.problem.spring.web.advice.security.SecurityProblemSupport;
 
-import com.dufther.security.AuthoritiesConstants;
-import com.dufther.security.jwt.JwtAuthEntryPoint;
-import com.dufther.security.jwt.JwtAuthTokenFilter;
-import com.dufther.security.services.UserDetailsServiceImpl;
+import com.bluejob.security.AuthoritiesConstants;
+import com.bluejob.security.jwt.JwtAuthEntryPoint;
+import com.bluejob.security.jwt.JwtAuthTokenFilter;
+import com.bluejob.security.services.UserDetailsServiceImpl;
 
 @Configuration
 @EnableWebSecurity

@@ -1,4 +1,4 @@
-package com.dufther.domain;
+package com.bluejob.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

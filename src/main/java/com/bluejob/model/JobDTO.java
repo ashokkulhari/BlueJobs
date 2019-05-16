@@ -1,4 +1,4 @@
-package com.dufther.model;
+package com.bluejob.model;
 
 
 
@@ -10,8 +10,8 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 
 
-import com.dufther.domain.Gender;
-import com.dufther.domain.Job;
+import com.bluejob.domain.Gender;
+import com.bluejob.domain.Job;
 
 import lombok.Getter;
 import lombok.Setter;

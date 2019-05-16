@@ -1,4 +1,4 @@
-package com.dufther.web.rest.util;
+package com.bluejob.web.rest.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +11,7 @@ public final class HeaderUtil {
 
     private static final Logger log = LoggerFactory.getLogger(HeaderUtil.class);
 
-    private static final String APPLICATION_NAME = "duftherApp";
+    private static final String APPLICATION_NAME = "bluejobApp";
 
     private HeaderUtil() {
     }

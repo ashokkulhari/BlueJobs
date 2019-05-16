@@ -1,4 +1,4 @@
-package com.dufther.response;
+package com.bluejob.response;
 
 public class JwtResponse {
     private String token;

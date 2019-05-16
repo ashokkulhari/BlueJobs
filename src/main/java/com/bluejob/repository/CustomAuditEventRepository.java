@@ -1,8 +1,8 @@
-package com.dufther.repository;
+package com.bluejob.repository;
 
-import com.dufther.config.Constants;
-import com.dufther.config.audit.AuditEventConverter;
-import com.dufther.domain.PersistentAuditEvent;
+import com.bluejob.config.Constants;
+import com.bluejob.config.audit.AuditEventConverter;
+import com.bluejob.domain.PersistentAuditEvent;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

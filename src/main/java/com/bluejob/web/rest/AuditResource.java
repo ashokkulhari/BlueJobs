@@ -1,7 +1,7 @@
-package com.dufther.web.rest;
+package com.bluejob.web.rest;
 
-import com.dufther.service.AuditEventService;
-import com.dufther.web.rest.util.PaginationUtil;
+import com.bluejob.service.AuditEventService;
+import com.bluejob.web.rest.util.PaginationUtil;
 
 import io.github.jhipster.web.util.ResponseUtil;
 import org.springframework.boot.actuate.audit.AuditEvent;

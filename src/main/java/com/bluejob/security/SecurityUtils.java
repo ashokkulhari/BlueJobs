@@ -1,4 +1,4 @@
-package com.dufther.security;
+package com.bluejob.security;
 
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;

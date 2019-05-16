@@ -1,4 +1,4 @@
-package com.dufther.config;
+package com.bluejob.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;

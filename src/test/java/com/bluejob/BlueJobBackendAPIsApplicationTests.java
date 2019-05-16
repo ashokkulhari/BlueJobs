@@ -1,4 +1,4 @@
-package com.dufther;
+package com.bluejob;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DuftherBackendAPIsApplicationTests {
+public class BlueJobBackendAPIsApplicationTests {
 
 	@Test
 	public void contextLoads() {

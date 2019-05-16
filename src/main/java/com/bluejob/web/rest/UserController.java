@@ -1,4 +1,4 @@
-package com.dufther.web.rest;
+package com.bluejob.web.rest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,19 +19,19 @@ import org.springframework.http.HttpHeaders;
 
 import static org.elasticsearch.index.query.QueryBuilders.*;
 
-import com.dufther.config.AuditEventPublisher;
-import com.dufther.config.Constants;
-import com.dufther.domain.User;
-import com.dufther.model.LoginModel;
-import com.dufther.model.UserDTO;
-import com.dufther.response.JwtResponse;
-import com.dufther.searchrepository.UserSearchRepository;
-import com.dufther.security.AuthoritiesConstants;
-import com.dufther.security.SecurityUtils;
-import com.dufther.security.jwt.JwtProvider;
-import com.dufther.service.UserService;
-import com.dufther.web.rest.util.HeaderUtil;
-import com.dufther.web.rest.util.PaginationUtil;
+import com.bluejob.config.AuditEventPublisher;
+import com.bluejob.config.Constants;
+import com.bluejob.domain.User;
+import com.bluejob.model.LoginModel;
+import com.bluejob.model.UserDTO;
+import com.bluejob.response.JwtResponse;
+import com.bluejob.searchrepository.UserSearchRepository;
+import com.bluejob.security.AuthoritiesConstants;
+import com.bluejob.security.SecurityUtils;
+import com.bluejob.security.jwt.JwtProvider;
+import com.bluejob.service.UserService;
+import com.bluejob.web.rest.util.HeaderUtil;
+import com.bluejob.web.rest.util.PaginationUtil;
 
 import javax.validation.Valid;
 import java.util.*;

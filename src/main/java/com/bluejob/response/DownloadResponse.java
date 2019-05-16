@@ -1,4 +1,4 @@
-package com.dufther.response;
+package com.bluejob.response;
 
 import java.io.ByteArrayOutputStream;
 

@@ -1,9 +1,9 @@
-package com.dufther.security.services;
+package com.bluejob.security.services;
 
-import com.dufther.domain.Authority;
-import com.dufther.domain.Permission;
-import com.dufther.domain.User;
-import com.dufther.model.ProfileStatus;
+import com.bluejob.domain.Authority;
+import com.bluejob.domain.Permission;
+import com.bluejob.domain.User;
+import com.bluejob.model.ProfileStatus;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

@@ -1,4 +1,4 @@
-package com.dufther.web.rest;
+package com.bluejob.web.rest;
 
 
 import java.util.List;
@@ -26,18 +26,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dufther.config.Constants;
-import com.dufther.domain.Candidate;
-import com.dufther.model.CandidateDTO;
-import com.dufther.security.AuthoritiesConstants;
-import com.dufther.security.SecurityUtils;
-import com.dufther.service.CandidateService;
-import com.dufther.web.rest.errors.EmailAlreadyUsedException;
-import com.dufther.web.rest.errors.InvalidPasswordException;
-import com.dufther.web.rest.errors.LoginAlreadyUsedException;
-import com.dufther.web.rest.util.CommonHelper;
-import com.dufther.web.rest.util.HeaderUtil;
-import com.dufther.web.rest.util.PaginationUtil;
+import com.bluejob.config.Constants;
+import com.bluejob.domain.Candidate;
+import com.bluejob.model.CandidateDTO;
+import com.bluejob.security.AuthoritiesConstants;
+import com.bluejob.security.SecurityUtils;
+import com.bluejob.service.CandidateService;
+import com.bluejob.web.rest.errors.EmailAlreadyUsedException;
+import com.bluejob.web.rest.errors.InvalidPasswordException;
+import com.bluejob.web.rest.errors.LoginAlreadyUsedException;
+import com.bluejob.web.rest.util.CommonHelper;
+import com.bluejob.web.rest.util.HeaderUtil;
+import com.bluejob.web.rest.util.PaginationUtil;
 
 
 @RestController

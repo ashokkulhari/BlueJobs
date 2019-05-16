@@ -1,4 +1,4 @@
-package com.dufther.security.jwt;
+package com.bluejob.security.jwt;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;
@@ -13,7 +13,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.stereotype.Component;
 
-import com.dufther.security.services.UserPrinciple;
+import com.bluejob.security.services.UserPrinciple;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.Date;

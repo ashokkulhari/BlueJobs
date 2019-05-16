@@ -1,4 +1,4 @@
-package com.dufther.security.jwt;
+package com.bluejob.security.jwt;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,7 +10,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.dufther.security.services.UserDetailsServiceImpl;
+import com.bluejob.security.services.UserDetailsServiceImpl;
 
 import io.jsonwebtoken.*;
 

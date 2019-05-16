@@ -1,7 +1,7 @@
-package com.dufther.service;
+package com.bluejob.service;
 
-import com.dufther.config.audit.AuditEventConverter;
-import com.dufther.repository.PersistenceAuditEventRepository;
+import com.bluejob.config.audit.AuditEventConverter;
+import com.bluejob.repository.PersistenceAuditEventRepository;
 import org.springframework.boot.actuate.audit.AuditEvent;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

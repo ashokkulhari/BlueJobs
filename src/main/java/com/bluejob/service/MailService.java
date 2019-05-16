@@ -1,6 +1,6 @@
-package com.dufther.service;
+package com.bluejob.service;
 
-import com.dufther.domain.User;
+import com.bluejob.domain.User;
 
 import io.github.jhipster.config.JHipsterProperties;
 

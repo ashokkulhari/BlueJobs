@@ -1,4 +1,4 @@
-package com.dufther.web.rest.util;
+package com.bluejob.web.rest.util;
 
 import java.util.Map;
 
@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.http.ResponseEntity.BodyBuilder;
 import org.springframework.http.ResponseEntity.HeadersBuilder;
 
-import com.dufther.web.rest.vm.ManagedUserVM;
+import com.bluejob.web.rest.vm.ManagedUserVM;
 
 public class CommonHelper {
 

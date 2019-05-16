@@ -1,15 +1,15 @@
-package com.dufther.model;
+package com.bluejob.model;
 
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
-import com.dufther.config.Auditable;
-import com.dufther.config.Constants;
-import com.dufther.domain.AbstractAuditingEntity;
-import com.dufther.domain.Authority;
-import com.dufther.domain.User;
-import com.dufther.domain.UserType;
+import com.bluejob.config.Auditable;
+import com.bluejob.config.Constants;
+import com.bluejob.domain.AbstractAuditingEntity;
+import com.bluejob.domain.Authority;
+import com.bluejob.domain.User;
+import com.bluejob.domain.UserType;
 
 import lombok.Getter;
 import lombok.Setter;

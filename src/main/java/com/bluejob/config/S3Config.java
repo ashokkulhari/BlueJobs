@@ -1,4 +1,4 @@
-package com.dufther.config;
+package com.bluejob.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -12,13 +12,13 @@ import com.amazonaws.services.s3.AmazonS3ClientBuilder;
  
 @Configuration
 public class S3Config {
-	@Value("${dufther.aws.access_key_id}")
+	@Value("${bluejob.aws.access_key_id}")
 	private String awsId;
  
-	@Value("${dufther.aws.secret_access_key}")
+	@Value("${bluejob.aws.secret_access_key}")
 	private String awsKey;
 	
-	@Value("${dufther.s3.region}")
+	@Value("${bluejob.s3.region}")
 	private String region;
 
 	@Bean

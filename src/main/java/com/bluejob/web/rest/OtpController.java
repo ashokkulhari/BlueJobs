@@ -1,4 +1,4 @@
-package com.dufther.web.rest;
+package com.bluejob.web.rest;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,10 +21,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dufther.service.MailService;
-import com.dufther.service.OtpService;
-import com.dufther.service.TwilioSmsSender;
-import com.dufther.util.SmsRequest;
+import com.bluejob.service.MailService;
+import com.bluejob.service.OtpService;
+import com.bluejob.service.TwilioSmsSender;
+import com.bluejob.util.SmsRequest;
 
 /**
  */

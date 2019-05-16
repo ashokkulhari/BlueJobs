@@ -1,6 +1,6 @@
-package com.dufther.web.rest.errors;
+package com.bluejob.web.rest.errors;
 
-import com.dufther.web.rest.util.HeaderUtil;
+import com.bluejob.web.rest.util.HeaderUtil;
 
 import org.springframework.dao.ConcurrencyFailureException;
 import org.springframework.http.ResponseEntity;

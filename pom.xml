@@ -8,11 +8,11 @@
 		<version>2.0.8.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.dufther</groupId>
-	<artifactId>DuftherBackendAPIs</artifactId>
+	<groupId>com.bluejob</groupId>
+	<artifactId>bluejobBackendAPIs</artifactId>
 	<version>1.0</version>
-	<name>DuftherBackendAPIs</name>
-	<description>Dufther API</description>
+	<name>bluejobBackendAPIs</name>
+	<description>bluejob API</description>
 
 	<properties>
 		<java.version>1.8</java.version>

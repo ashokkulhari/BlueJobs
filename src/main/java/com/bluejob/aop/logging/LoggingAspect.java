@@ -1,4 +1,4 @@
-package com.dufther.aop.logging;
+package com.bluejob.aop.logging;
 
 
 import org.aspectj.lang.JoinPoint;
@@ -11,7 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.env.Environment;
 
-import com.dufther.util.ENVConstants;
+import com.bluejob.util.ENVConstants;
 
 import java.util.Arrays;
 
@@ -44,9 +44,9 @@ public class LoggingAspect {
     /**
      * Pointcut that matches all Spring beans in the application's main packages.
      */
-    @Pointcut("within(com.dufther.repository..*)"+
-        " || within(com.dufther.service..*)"+
-        " || within(com.dufther.web.rest..*)")
+    @Pointcut("within(com.bluejob.repository..*)"+
+        " || within(com.bluejob.service..*)"+
+        " || within(com.bluejob.web.rest..*)")
     public void applicationPackagePointcut() {
         // Method is empty as this is just a Pointcut, the implementations are in the advices.
     }

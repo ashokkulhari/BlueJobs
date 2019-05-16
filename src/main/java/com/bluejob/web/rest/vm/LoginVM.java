@@ -1,4 +1,4 @@
-package com.dufther.web.rest.vm;
+package com.bluejob.web.rest.vm;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;

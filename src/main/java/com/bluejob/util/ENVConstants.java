@@ -1,4 +1,4 @@
-package com.dufther.util;
+package com.bluejob.util;
 
 public interface ENVConstants {
 	 String SPRING_PROFILE_DEVELOPMENT = "dev";

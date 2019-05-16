@@ -1,4 +1,4 @@
-package com.dufther.config;
+package com.bluejob.config;
 
 import io.github.jhipster.config.locale.AngularCookieLocaleResolver;
 

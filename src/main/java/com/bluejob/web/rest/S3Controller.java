@@ -1,4 +1,4 @@
-package com.dufther.web.rest;
+package com.bluejob.web.rest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,12 +15,12 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.dufther.response.DownloadResponse;
-import com.dufther.security.AuthoritiesConstants;
-import com.dufther.security.SecurityUtils;
-import com.dufther.service.S3Services;
-import com.dufther.web.rest.util.CommonHelper;
-import com.dufther.web.rest.util.HeaderUtil;
+import com.bluejob.response.DownloadResponse;
+import com.bluejob.security.AuthoritiesConstants;
+import com.bluejob.security.SecurityUtils;
+import com.bluejob.service.S3Services;
+import com.bluejob.web.rest.util.CommonHelper;
+import com.bluejob.web.rest.util.HeaderUtil;
 
  
 @RestController

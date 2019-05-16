@@ -1,4 +1,4 @@
-package com.dufther.config;
+package com.bluejob.config;
 
 import org.springframework.boot.actuate.audit.AuditEvent;
 import org.springframework.boot.actuate.audit.listener.AuditApplicationEvent;

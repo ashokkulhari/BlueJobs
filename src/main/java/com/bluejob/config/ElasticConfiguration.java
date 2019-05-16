@@ -1,4 +1,4 @@
-package com.dufther.config;
+package com.bluejob.config;
 
 import org.elasticsearch.client.Client;
 import org.elasticsearch.client.transport.TransportClient;
@@ -16,8 +16,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import java.net.InetAddress;
 
 @Configuration
-@EnableJpaRepositories(basePackages = "com.dufther.repository")
-@EnableElasticsearchRepositories(basePackages = "com.dufther.searchrepository")
+@EnableJpaRepositories(basePackages = "com.bluejob.repository")
+@EnableElasticsearchRepositories(basePackages = "com.bluejob.searchrepository")
 public class ElasticConfiguration {
 
 

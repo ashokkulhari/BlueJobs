@@ -1,4 +1,4 @@
-package com.dufther.model;
+package com.bluejob.model;
 
 import java.util.Date;
 import java.util.Set;
@@ -7,9 +7,9 @@ import java.util.stream.Collectors;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 
-import com.dufther.domain.Candidate;
-import com.dufther.domain.Gender;
-import com.dufther.domain.PhysicalStatus;
+import com.bluejob.domain.Candidate;
+import com.bluejob.domain.Gender;
+import com.bluejob.domain.PhysicalStatus;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import lombok.Getter;

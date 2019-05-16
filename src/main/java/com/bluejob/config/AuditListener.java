@@ -1,4 +1,4 @@
-package com.dufther.config;
+package com.bluejob.config;
 
 import javax.persistence.PrePersist;
 import javax.persistence.PreRemove;

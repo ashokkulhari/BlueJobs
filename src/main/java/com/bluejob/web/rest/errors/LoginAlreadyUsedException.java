@@ -1,4 +1,4 @@
-package com.dufther.web.rest.errors;
+package com.bluejob.web.rest.errors;
 
 public class LoginAlreadyUsedException extends BadRequestAlertException {
 

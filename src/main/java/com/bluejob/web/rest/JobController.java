@@ -1,4 +1,4 @@
-package com.dufther.web.rest;
+package com.bluejob.web.rest;
 
 
 
@@ -24,13 +24,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dufther.domain.Job;
-import com.dufther.model.JobDTO;
-import com.dufther.security.AuthoritiesConstants;
-import com.dufther.security.SecurityUtils;
-import com.dufther.service.JobService;
-import com.dufther.web.rest.util.CommonHelper;
-import com.dufther.web.rest.util.PaginationUtil;
+import com.bluejob.domain.Job;
+import com.bluejob.model.JobDTO;
+import com.bluejob.security.AuthoritiesConstants;
+import com.bluejob.security.SecurityUtils;
+import com.bluejob.service.JobService;
+import com.bluejob.web.rest.util.CommonHelper;
+import com.bluejob.web.rest.util.PaginationUtil;
 
 @RestController
 @RequestMapping("/api")

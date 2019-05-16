@@ -1,6 +1,6 @@
-package com.dufther.searchrepository;
+package com.bluejob.searchrepository;
 
-import com.dufther.domain.User;
+import com.bluejob.domain.User;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 /**

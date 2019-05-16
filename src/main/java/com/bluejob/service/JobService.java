@@ -1,4 +1,4 @@
-package com.dufther.service;
+package com.bluejob.service;
 
 import static org.elasticsearch.index.query.QueryBuilders.queryStringQuery;
 
@@ -23,26 +23,26 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
-import com.dufther.domain.Industry;
-import com.dufther.domain.IndustryRole;
-import com.dufther.domain.Job;
-import com.dufther.domain.JobIndsIndustryRole;
-import com.dufther.domain.PrefIndsIndustryRole;
-import com.dufther.model.CandidateDTO;
-import com.dufther.model.JobDTO;
-import com.dufther.repository.AllowanceRepository;
-import com.dufther.repository.CertificateRepository;
-import com.dufther.repository.CityRepository;
-import com.dufther.repository.IndustryRepository;
-import com.dufther.repository.IndustryRoleRepository;
-import com.dufther.repository.JobJPARepository;
-import com.dufther.repository.LanguageRepository;
-import com.dufther.repository.QualificationRepository;
-import com.dufther.repository.SkillsRepository;
-import com.dufther.repository.SpecializationRepository;
-import com.dufther.repository.WorkTypeRepository;
-import com.dufther.repository.WorkingModeRepository;
-import com.dufther.searchrepository.JobSearchRepository;
+import com.bluejob.domain.Industry;
+import com.bluejob.domain.IndustryRole;
+import com.bluejob.domain.Job;
+import com.bluejob.domain.JobIndsIndustryRole;
+import com.bluejob.domain.PrefIndsIndustryRole;
+import com.bluejob.model.CandidateDTO;
+import com.bluejob.model.JobDTO;
+import com.bluejob.repository.AllowanceRepository;
+import com.bluejob.repository.CertificateRepository;
+import com.bluejob.repository.CityRepository;
+import com.bluejob.repository.IndustryRepository;
+import com.bluejob.repository.IndustryRoleRepository;
+import com.bluejob.repository.JobJPARepository;
+import com.bluejob.repository.LanguageRepository;
+import com.bluejob.repository.QualificationRepository;
+import com.bluejob.repository.SkillsRepository;
+import com.bluejob.repository.SpecializationRepository;
+import com.bluejob.repository.WorkTypeRepository;
+import com.bluejob.repository.WorkingModeRepository;
+import com.bluejob.searchrepository.JobSearchRepository;
 
 
 @Service

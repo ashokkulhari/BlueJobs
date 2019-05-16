@@ -1,4 +1,4 @@
-package com.dufther.domain;
+package com.bluejob.domain;
 
 import java.io.Serializable;
 import java.time.Instant;
@@ -19,7 +19,7 @@ import javax.persistence.Table;
 
 import org.springframework.data.elasticsearch.annotations.Document;
 //import org.springframework.data.annotation.Id;
-import com.dufther.config.Auditable;
+import com.bluejob.config.Auditable;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

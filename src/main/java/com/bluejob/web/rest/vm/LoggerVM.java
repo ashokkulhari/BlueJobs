@@ -1,4 +1,4 @@
-package com.dufther.web.rest.vm;
+package com.bluejob.web.rest.vm;
 
 import ch.qos.logback.classic.Logger;
 

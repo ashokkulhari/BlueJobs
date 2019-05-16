@@ -1,4 +1,4 @@
-package com.dufther.service;
+package com.bluejob.service;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -22,10 +22,10 @@ import com.amazonaws.services.s3.model.GetObjectRequest;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
 import com.amazonaws.services.s3.model.S3Object;
-import com.dufther.domain.UserType;
-import com.dufther.response.DownloadResponse;
-import com.dufther.web.rest.errors.InternalServerErrorException;
-import com.dufther.web.rest.util.CommonHelper;
+import com.bluejob.domain.UserType;
+import com.bluejob.response.DownloadResponse;
+import com.bluejob.web.rest.errors.InternalServerErrorException;
+import com.bluejob.web.rest.util.CommonHelper;
 
 @Service
 public class S3Services {
@@ -40,7 +40,7 @@ private Logger logger = LoggerFactory.getLogger(S3Services.class);
 	@Autowired
 	private CandidateService candidateService;
 	
-	@Value("${dufther.s3.bucket}")
+	@Value("${bluejob.s3.bucket}")
 	private String bucketName;
  
 	 private static final String SEPERATOR = "/";

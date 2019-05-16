@@ -1,4 +1,4 @@
-package com.dufther.security;
+package com.bluejob.security;
 
 /**
  * Constants for Spring Security authorities.

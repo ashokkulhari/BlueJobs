@@ -1,4 +1,4 @@
-package com.dufther.service;
+package com.bluejob.service;
 
 import static org.elasticsearch.index.query.QueryBuilders.queryStringQuery;
 
@@ -19,21 +19,21 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.dufther.domain.Address;
-import com.dufther.domain.Candidate;
-import com.dufther.domain.CandidateDetails;
-import com.dufther.domain.City;
-import com.dufther.domain.Experience;
-import com.dufther.domain.Industry;
-import com.dufther.domain.Skills;
-import com.dufther.domain.User;
-import com.dufther.domain.UserType;
-import com.dufther.model.CandidateDTO;
-import com.dufther.repository.CandidateJPARepository;
-import com.dufther.repository.CityRepository;
-import com.dufther.repository.IndustryRepository;
-import com.dufther.repository.SkillsRepository;
-import com.dufther.searchrepository.CandidateSearchRepository;
+import com.bluejob.domain.Address;
+import com.bluejob.domain.Candidate;
+import com.bluejob.domain.CandidateDetails;
+import com.bluejob.domain.City;
+import com.bluejob.domain.Experience;
+import com.bluejob.domain.Industry;
+import com.bluejob.domain.Skills;
+import com.bluejob.domain.User;
+import com.bluejob.domain.UserType;
+import com.bluejob.model.CandidateDTO;
+import com.bluejob.repository.CandidateJPARepository;
+import com.bluejob.repository.CityRepository;
+import com.bluejob.repository.IndustryRepository;
+import com.bluejob.repository.SkillsRepository;
+import com.bluejob.searchrepository.CandidateSearchRepository;
 
 @Service
 public class CandidateService {

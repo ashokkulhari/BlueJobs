@@ -1,4 +1,4 @@
-package com.dufther.model;
+package com.bluejob.model;
 
 import lombok.Getter;
 import lombok.Setter;

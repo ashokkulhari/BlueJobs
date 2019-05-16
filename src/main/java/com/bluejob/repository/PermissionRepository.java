@@ -1,9 +1,9 @@
-package com.dufther.repository;
+package com.bluejob.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.dufther.domain.Permission;
+import com.bluejob.domain.Permission;
 
 @Repository
 public interface PermissionRepository extends JpaRepository<Permission,Long> {

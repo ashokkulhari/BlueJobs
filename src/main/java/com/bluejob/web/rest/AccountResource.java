@@ -1,4 +1,4 @@
-package com.dufther.web.rest;
+package com.bluejob.web.rest;
 
 
 
@@ -9,21 +9,21 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.dufther.domain.User;
-import com.dufther.model.PasswordChangeDTO;
-import com.dufther.model.UserDTO;
-import com.dufther.repository.UserJPARepository;
-import com.dufther.security.SecurityUtils;
-import com.dufther.service.MailService;
-import com.dufther.service.UserService;
-import com.dufther.web.rest.errors.EmailAlreadyUsedException;
-import com.dufther.web.rest.errors.EmailNotFoundException;
-import com.dufther.web.rest.errors.InternalServerErrorException;
-import com.dufther.web.rest.errors.InvalidPasswordException;
-import com.dufther.web.rest.errors.LoginAlreadyUsedException;
-import com.dufther.web.rest.util.CommonHelper;
-import com.dufther.web.rest.vm.KeyAndPasswordVM;
-import com.dufther.web.rest.vm.ManagedUserVM;
+import com.bluejob.domain.User;
+import com.bluejob.model.PasswordChangeDTO;
+import com.bluejob.model.UserDTO;
+import com.bluejob.repository.UserJPARepository;
+import com.bluejob.security.SecurityUtils;
+import com.bluejob.service.MailService;
+import com.bluejob.service.UserService;
+import com.bluejob.web.rest.errors.EmailAlreadyUsedException;
+import com.bluejob.web.rest.errors.EmailNotFoundException;
+import com.bluejob.web.rest.errors.InternalServerErrorException;
+import com.bluejob.web.rest.errors.InvalidPasswordException;
+import com.bluejob.web.rest.errors.LoginAlreadyUsedException;
+import com.bluejob.web.rest.util.CommonHelper;
+import com.bluejob.web.rest.vm.KeyAndPasswordVM;
+import com.bluejob.web.rest.vm.ManagedUserVM;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;

@@ -1,8 +1,8 @@
-package com.dufther.repository;
+package com.bluejob.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.dufther.domain.ProfileStatus;
+import com.bluejob.domain.ProfileStatus;
 
 public interface ProfileStatusRepository extends JpaRepository<ProfileStatus,String>  {
 

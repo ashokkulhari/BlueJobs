@@ -1,6 +1,6 @@
-package com.dufther.config;
+package com.bluejob.config;
 
-import com.dufther.aop.logging.LoggingAspect;
+import com.bluejob.aop.logging.LoggingAspect;
 
 import io.github.jhipster.config.JHipsterConstants;
 

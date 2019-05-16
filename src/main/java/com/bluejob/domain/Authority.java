@@ -1,10 +1,10 @@
-package com.dufther.domain;
+package com.bluejob.domain;
 
 import org.hibernate.annotations.BatchSize;
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
-import com.dufther.config.Auditable;
+import com.bluejob.config.Auditable;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.Getter;

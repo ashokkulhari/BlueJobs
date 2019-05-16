@@ -1,6 +1,6 @@
-package com.dufther.repository;
+package com.bluejob.repository;
 
-import com.dufther.domain.PersistentAuditEvent;
+import com.bluejob.domain.PersistentAuditEvent;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

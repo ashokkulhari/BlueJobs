@@ -1,4 +1,4 @@
-package com.dufther.service;
+package com.bluejob.service;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;

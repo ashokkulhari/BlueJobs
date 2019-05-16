@@ -1,4 +1,4 @@
-package com.dufther.util;
+package com.bluejob.util;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

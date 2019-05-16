@@ -1,4 +1,4 @@
-package com.dufther.domain;
+package com.bluejob.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

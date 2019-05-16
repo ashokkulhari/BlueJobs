@@ -1,4 +1,4 @@
-package com.dufther.web.rest.errors;
+package com.bluejob.web.rest.errors;
 
 public class EmailAlreadyUsedException extends BadRequestAlertException {
 

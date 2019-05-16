@@ -1,4 +1,4 @@
-package com.dufther.config;
+package com.bluejob.config;
 
 import java.util.Optional;
 
@@ -6,7 +6,7 @@ import org.springframework.data.domain.AuditorAware;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 
-import com.dufther.security.services.UserPrinciple;
+import com.bluejob.security.services.UserPrinciple;
 
 public class AuditorAwareImpl implements AuditorAware<String> {
 
