@@ -58,7 +58,8 @@ private Logger logger = LoggerFactory.getLogger(S3Services.class);
             while ((len = is.read(buffer, 0, buffer.length)) != -1) {
                 baos.write(buffer, 0, len);
             }
-            
+
+
             downloadResponse.setIsSuccess(true);
             downloadResponse.setByteArrayOutputStream(baos);
 		} catch (IOException ioe) {
